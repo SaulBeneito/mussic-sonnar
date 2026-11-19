@@ -1,0 +1,17 @@
+node_modules/
+
+# Variables de entorno y secretos: nunca a GitHub
+.env
+.env.*
+!.env.example
+*.local.sql
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Skills de Prisma para agentes, instaladas por `prisma init` (no forman parte del proyecto)
+backend/.agents/
+backend/.claude/
+backend/.windsurf/
+backend/skills-lock.json

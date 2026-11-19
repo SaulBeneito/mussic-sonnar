@@ -1,0 +1,402 @@
+{
+  "fecha": "2026-11-17T17:44:24.968Z",
+  "resultados": [
+    {
+      "nombre": "Alcalá Norte",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 22,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 43,
+      "perfil": {
+        "energy": 0.881,
+        "valence": 0.538,
+        "danceability": 0.445,
+        "acousticness": 0.012,
+        "tempo": 158
+      },
+      "spotifyId": "7raVfIwIqNjj5OGBbBQNDR",
+      "rbId": "f4631655-f63c-46f0-a05d-7e4fad619c31"
+    },
+    {
+      "nombre": "Depresión Sonora",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 59,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 54,
+      "perfil": {
+        "energy": 0.825,
+        "valence": 0.751,
+        "danceability": 0.608,
+        "acousticness": 0.418,
+        "tempo": 152.8
+      },
+      "spotifyId": "2oCrGFAUJwBVFaaIM8c0AO",
+      "rbId": "eebb4576-ebd3-4267-aa3f-3aecf7066122"
+    },
+    {
+      "nombre": "Ginebras",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 66,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 40,
+      "perfil": {
+        "energy": 0.809,
+        "valence": 0.654,
+        "danceability": 0.512,
+        "acousticness": 0.038,
+        "tempo": 132.2
+      },
+      "spotifyId": "5w3bs8jNvbb0QHf5Lo0sva",
+      "rbId": "8a6e5ed9-3c8b-478f-9195-cd9e154b54e8"
+    },
+    {
+      "nombre": "Cupido",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 50,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 45,
+      "perfil": {
+        "energy": 0.644,
+        "valence": 0.47,
+        "danceability": 0.644,
+        "acousticness": 0.399,
+        "tempo": 120.9
+      },
+      "spotifyId": "4cK5uxWRVJ3QOSfaBMX2Ex",
+      "rbId": "143d7890-cb61-4bc8-a8a1-5b6ab4ebc3c0"
+    },
+    {
+      "nombre": "Biznaga",
+      "pais": "ES",
+      "metodo": "búsqueda por nombre",
+      "encontrado": true,
+      "homonimos": 1,
+      "canciones": 68,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 36,
+      "perfil": {
+        "energy": 0.906,
+        "valence": 0.465,
+        "danceability": 0.453,
+        "acousticness": 0.03,
+        "tempo": 131.2
+      },
+      "rbId": "6eeed36c-b4da-4c04-a826-4445e4497a8c"
+    },
+    {
+      "nombre": "Repion",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 67,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 38,
+      "perfil": {
+        "energy": 0.725,
+        "valence": 0.232,
+        "danceability": 0.497,
+        "acousticness": 0.213,
+        "tempo": 140
+      },
+      "spotifyId": "15o4xwiKZWJ6jOFp9LeP24",
+      "rbId": "a2127cc9-8794-4186-a71b-caace20fd00e"
+    },
+    {
+      "nombre": "Shego",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 59,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 44,
+      "perfil": {
+        "energy": 0.667,
+        "valence": 0.553,
+        "danceability": 0.553,
+        "acousticness": 0.11,
+        "tempo": 134.9
+      },
+      "spotifyId": "1DiDa1DfTjldKJQeonyP33",
+      "rbId": "70f8416a-826c-4bf8-9f8b-2cf8a216f5a4"
+    },
+    {
+      "nombre": "Mujeres",
+      "pais": "ES",
+      "metodo": "búsqueda por nombre",
+      "encontrado": true,
+      "homonimos": 2,
+      "canciones": 142,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 32,
+      "perfil": {
+        "energy": 0.893,
+        "valence": 0.606,
+        "danceability": 0.371,
+        "acousticness": 0.006,
+        "tempo": 141.7
+      },
+      "rbId": "ccff8925-8a1c-434c-96ca-b839020acd54"
+    },
+    {
+      "nombre": "Merina Gris",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 40,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 32,
+      "perfil": {
+        "energy": 0.757,
+        "valence": 0.514,
+        "danceability": 0.62,
+        "acousticness": 0.16,
+        "tempo": 131.6
+      },
+      "spotifyId": "7MoqcWOPD6BEKF85fxvwuD",
+      "rbId": "f7963e0d-b741-4763-b2d7-b497d55db2d5"
+    },
+    {
+      "nombre": "Hoonine",
+      "pais": "ES",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 11,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 8,
+      "perfil": {
+        "energy": 0.564,
+        "valence": 0.271,
+        "danceability": 0.61,
+        "acousticness": 0.122,
+        "tempo": 128.4
+      },
+      "spotifyId": "7JLaKdKaR60XFtyXkwDICp",
+      "rbId": "54e5e937-0c5a-4430-9aea-3f65af64e1d7"
+    },
+    {
+      "nombre": "Wednesday",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 75,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 37,
+      "perfil": {
+        "energy": 0.545,
+        "valence": 0.324,
+        "danceability": 0.369,
+        "acousticness": 0.321,
+        "tempo": 114.8
+      },
+      "spotifyId": "4j7DrazfBZLLD0OrVoAtEe",
+      "rbId": "4605bdb3-760b-4dbb-9720-e27f449cc086"
+    },
+    {
+      "nombre": "Horsegirl",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 54,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 40,
+      "perfil": {
+        "energy": 0.687,
+        "valence": 0.632,
+        "danceability": 0.562,
+        "acousticness": 0.291,
+        "tempo": 127.4
+      },
+      "spotifyId": "2FDvUb4YgyUPpmnm1ILPra",
+      "rbId": "ae7ae08a-d397-455c-947e-723bd0d48d82"
+    },
+    {
+      "nombre": "Wishy",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 30,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 37,
+      "perfil": {
+        "energy": 0.776,
+        "valence": 0.515,
+        "danceability": 0.414,
+        "acousticness": 0.017,
+        "tempo": 101.4
+      },
+      "spotifyId": "1TkiNxDsrc0PgIWBrATCbe",
+      "rbId": "d16bf72b-6c95-4fe5-912a-4ba501ea2ca0"
+    },
+    {
+      "nombre": "Fcukers",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 48,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 60,
+      "perfil": {
+        "energy": 0.707,
+        "valence": 0.694,
+        "danceability": 0.804,
+        "acousticness": 0.024,
+        "tempo": 127
+      },
+      "spotifyId": "3UtzOHYm3lQALkKzVD4wyO",
+      "rbId": "9754f6c0-6fa5-4b98-86f0-5022545a5dee"
+    },
+    {
+      "nombre": "Ekko Astral",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 16,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 24,
+      "perfil": {
+        "energy": 0.734,
+        "valence": 0.244,
+        "danceability": 0.372,
+        "acousticness": 0.156,
+        "tempo": 110.7
+      },
+      "spotifyId": "5YaWzI756w0pw1DkJkun5u",
+      "rbId": "80a3b358-7b98-4bc7-9e18-2f7ad89eaa62"
+    },
+    {
+      "nombre": "Water From Your Eyes",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 123,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 27,
+      "perfil": {
+        "energy": 0.697,
+        "valence": 0.679,
+        "danceability": 0.604,
+        "acousticness": 0.278,
+        "tempo": 125.4
+      },
+      "spotifyId": "6hYlNLoZJg74dVhA8FHIc0",
+      "rbId": "4d7c29bf-7cb4-4d1f-b966-1b5b084f367c"
+    },
+    {
+      "nombre": "Feeble Little Horse",
+      "pais": "US",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 30,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 43,
+      "perfil": {
+        "energy": 0.643,
+        "valence": 0.395,
+        "danceability": 0.473,
+        "acousticness": 0.226,
+        "tempo": 123.7
+      },
+      "spotifyId": "2GJa7lPCjAB1rKXptXrfy8",
+      "rbId": "bedcf7db-9980-486e-83f2-9e24243eb130"
+    },
+    {
+      "nombre": "Hotline TNT",
+      "pais": "US",
+      "metodo": "búsqueda por nombre",
+      "encontrado": true,
+      "homonimos": 1,
+      "canciones": 52,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 25,
+      "perfil": {
+        "energy": 0.679,
+        "valence": 0.376,
+        "danceability": 0.276,
+        "acousticness": 0.001,
+        "tempo": 115.1
+      },
+      "rbId": "b603293c-3c07-4be7-a95c-26610987e2f2"
+    },
+    {
+      "nombre": "bar italia",
+      "pais": "GB",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 73,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 36,
+      "perfil": {
+        "energy": 0.689,
+        "valence": 0.489,
+        "danceability": 0.645,
+        "acousticness": 0.115,
+        "tempo": 117.7
+      },
+      "spotifyId": "6tYmTHApvspl6KAgTfHjAY",
+      "rbId": "34e78c95-7956-4b76-9ed7-32b0235f5156"
+    },
+    {
+      "nombre": "Freak Slug",
+      "pais": "GB",
+      "metodo": "ID de Spotify (MusicBrainz)",
+      "encontrado": true,
+      "homonimos": null,
+      "canciones": 79,
+      "conFeatures": 10,
+      "probadas": 10,
+      "popularidadMedia": 49,
+      "perfil": {
+        "energy": 0.515,
+        "valence": 0.501,
+        "danceability": 0.656,
+        "acousticness": 0.328,
+        "tempo": 107.8
+      },
+      "spotifyId": "5wk7sY8GIg5ihSI09EbWeS",
+      "rbId": "c824fac9-a4ae-454c-92bf-bd41269233f8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mussic-sonnar",
+  "private": true,
+  "description": "Buscador musical personalizado para descubrir artistas, canciones y géneros",
+  "scripts": {
+    "postinstall": "npm --prefix frontend install && npm --prefix backend install",
+    "dev": "concurrently -k -n api,web -c magenta,cyan \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test",
+    "db:migrate": "npm --prefix backend run db:migrate"
+  },
+  "devDependencies": {
+    "concurrently": "10.0.7"
+  }
+}

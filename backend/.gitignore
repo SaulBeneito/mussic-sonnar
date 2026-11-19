@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+*.tsbuildinfo
+
+# Variables de entorno: nunca a GitHub (la plantilla .env.example sí se sube)
+.env
+.env.*
+!.env.example
+
+# Cliente de Prisma generado (se regenera con `npm install` o `npm run db:generate`)
+/src/generated/prisma
