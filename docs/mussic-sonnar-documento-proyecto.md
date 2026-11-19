@@ -18,7 +18,8 @@ Mockup: https://canva.link/oljdtql08t52i7b
   - Confirmar los pesos de los tres modos de recomendación.
 - **Hecho:** prueba de cobertura de ReccoBeats con 20 artistas emergentes (2026-11-17): 20/20 con perfil de sonido. Segunda prueba con 48 artistas muy pequeños: 65 % con perfil útil. Ver "Prueba de ReccoBeats".
 - **Fase 0 terminada (2026-11-19):** ver "Fase 0: qué hay montado".
-- **Siguiente paso:** subir el repositorio a GitHub y empezar la Fase 1 (prototipo visual).
+- **Repositorio:** https://github.com/SaulBeneito/mussic-sonnar (privado, rama `main`).
+- **Siguiente paso:** Fase 1 (prototipo visual).
 
 ## Idea y objetivo
 
@@ -229,7 +230,7 @@ Pueden esperar a que la web sea pública:
 
 | Servicio | Para qué | Variable de entorno | Fase | Estado |
 |---|---|---|---|---|
-| GitHub | Guardar el código | — | 0 | Repositorio local creado; falta subirlo |
+| GitHub | Guardar el código ([SaulBeneito/mussic-sonnar](https://github.com/SaulBeneito/mussic-sonnar), privado) | — | 0 | Listo |
 | Node.js | Ejecutar frontend y backend | — | 0 | Instalado |
 | PostgreSQL local | Base de datos (usuario `mussic`, base `mussic_sonnar`) | `DATABASE_URL` | 0 | Listo |
 | Last.fm | Datos y similitud de artistas | `LASTFM_API_KEY` | 2 | Solicitada |
