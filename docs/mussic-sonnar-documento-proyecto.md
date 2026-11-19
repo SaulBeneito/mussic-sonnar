@@ -19,7 +19,8 @@ Mockup: https://canva.link/oljdtql08t52i7b
 - **Hecho:** prueba de cobertura de ReccoBeats con 20 artistas emergentes (2026-11-17): 20/20 con perfil de sonido. Segunda prueba con 48 artistas muy pequeños: 65 % con perfil útil. Ver "Prueba de ReccoBeats".
 - **Fase 0 terminada (2026-11-19):** ver "Fase 0: qué hay montado".
 - **Repositorio:** https://github.com/SaulBeneito/mussic-sonnar (privado, rama `main`).
-- **Siguiente paso:** Fase 1 (prototipo visual).
+- **Fase 1 terminada (2026-11-19):** ver "Fase 1: prototipo visual".
+- **Siguiente paso:** Fase 2 (cuentas y funciones básicas). Necesita la clave de Last.fm y una cuenta SMTP para los emails.
 
 ## Idea y objetivo
 
@@ -225,6 +226,27 @@ Pueden esperar a que la web sea pública:
 - **Variables de entorno:** `backend/.env` (DATABASE_URL, API_PORT, FRONTEND_URL) y `frontend/.env.local` (API_URL), con plantillas `.env.example`. El puerto del backend usa `API_PORT` y no `PORT`, para no chocar con el del frontend.
 - **Tests:** unitario de `/health` (`npm test`) y e2e contra la base real (`npm --prefix backend run test:e2e`).
 - `prisma init` instaló skills de Prisma para agentes (`backend/.agents`, `.claude`, `.windsurf`). Quedan fuera de Git.
+
+## Fase 1: prototipo visual
+
+Todas las pantallas con datos inventados, marcados con la etiqueta DEMO (`frontend/src/lib/demo-data.ts`). No se guarda nada: formularios, favoritos y gustos solo cambian en el navegador.
+
+| Ruta | Pantalla | Notas |
+|---|---|---|
+| `/` | Inicio | Titular, buscador, botón Empezar y "Cómo funciona" (Spotify, gustos manuales, descubrir) |
+| `/descubrir` | Descubrir | Pestañas de los 3 modos (por defecto Descubrimiento, como dice este documento; el mockup marcaba Parecidos), % de afinidad, motivo de cada recomendación, descubrimiento del día y canciones nuevas |
+| `/explorar`, `/explorar/[genero]` | Explorar | 6 géneros del mockup, artistas emergentes y página por género |
+| `/mi-musica` | Mi Música | Perfil, estadísticas, editor de gustos manuales, artistas favoritos y evolución de gustos |
+| `/favoritos` | Favoritos | Pestañas Artistas, Canciones y Álbumes |
+| `/artista/[slug]` | Artista | No está en el mockup. Motivo de la recomendación, perfil de sonido, canciones, similares y botón de favorito |
+| `/buscar` | Búsqueda | Resultados de artistas y géneros |
+| `/login`, `/registro`, `/recuperar` | Cuenta | Formularios sin conexión al backend |
+| `/ajustes` | Ajustes | Datos, Spotify, privacidad, cerrar sesión y eliminar cuenta (con confirmación) |
+| `/estado` | Estado | La comprobación de conexiones de la Fase 0 |
+
+- **Navegación:** barra superior en ordenador; barra inferior con iconos en móvil. Comprobado a 375 px sin scroll horizontal.
+- **Imágenes:** las fotos del mockup son de Canva y su licencia no permite usarlas fuera del diseño. Se sustituyen por portadas abstractas generadas (resplandor morado, anillos de sonar y ondas) hasta tener imágenes reales de Last.fm o Spotify.
+- **Animaciones:** aparición suave con CSS, pestañas y menú con Motion (antes Framer Motion). Se desactivan si el sistema pide reducir movimiento.
 
 ## Servicios y credenciales
 
